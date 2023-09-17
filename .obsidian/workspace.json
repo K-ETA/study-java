@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "fab94ad88eb37e17",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ee2ead4080dd1b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3eef075a33c9405",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c5f29a32329ecd9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "163035a04c730cf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60835f054a2f29bc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1748f0cdd73ae0e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "490ae54de67f3a19",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8814b663922dba8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0ea0efa747dab66",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6ca7b4bd2b24f91",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d53284db7f6832a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cf21f36888b1da38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c559ec1fa9096073",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "c3eef075a33c9405",
+  "lastOpenFiles": [
+    "01-Learn-the-Fundamentals/05-Loops.md",
+    "01-Learn-the-Fundamentals/04-Functions.md",
+    "01-Learn-the-Fundamentals/03-Conditionals.md",
+    "01-Learn-the-Fundamentals/01-Basic-Syntax.md",
+    "01-Learn-the-Fundamentals/02-DataTypes, Variables.md"
+  ]
+}
