@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1ee2ead4080dd1b1",
+        "id": "82379e6c0cf6b91c",
         "type": "tabs",
         "children": [
           {
-            "id": "c3eef075a33c9405",
+            "id": "8be311c00cb075da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "8814b663922dba8c",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md"
+              }
             }
           }
         ],
@@ -138,8 +147,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c3eef075a33c9405",
+  "active": "8be311c00cb075da",
   "lastOpenFiles": [
+    "02-Getting-Deeper/05-Generics.md",
+    "02-Getting-Deeper/06-Streams.md",
+    "02-Getting-Deeper/04-Networking-and-Sockets.md",
+    "02-Getting-Deeper/03-Serialization.md",
+    "02-Getting-Deeper/02-Collections-Framework.md",
+    "02-Getting-Deeper/01-Memory-Management.md",
     "01-Learn-the-Fundamentals/05-Loops.md",
     "01-Learn-the-Fundamentals/04-Functions.md",
     "01-Learn-the-Fundamentals/03-Conditionals.md",
