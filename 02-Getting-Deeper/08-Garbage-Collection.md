@@ -248,7 +248,7 @@ Java 기술을 향상시키려는 프로그래머의 경우 GC의 작동 방식�
     
         public void show() {
             System.out.println("Id=" + ID + "\nName=" + name
-                               + "\nAge=" + age);
+                + "\nAge=" + age);
     		}
     
         public void showNextId() {
@@ -367,7 +367,7 @@ Java 기술을 향상시키려는 프로그래머의 경우 GC의 작동 방식�
                 System.runFinalization();  // finalize를 호출
             }
     
-    				E.showNextId();
+            E.showNextId();
         }
     }
     ```

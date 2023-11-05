@@ -23,7 +23,8 @@
     - JVM에서 생성된 모든 스레드에는 우선순위가 부여된다
     - 각 스레드의 우선순위는 다양하며, 우선순위가 높은 스레드부터 실행된다
     - `main()`의 우선순위 초기값은 5이다
-    
+    <br>
+
     | 우선순위 | 값 |
     | --- | --- |
     | Thread.MIN_PRIORITY | 1 |
@@ -89,7 +90,7 @@
 
 > 스레드의 탄생부터 소멸까지의 상태 변화
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fd3f47ba-9b9c-44fc-b9c1-726c26896564/a3ec5de2-da12-44ea-9007-6ba5ae7359ee/Untitled.png)
+![Thread의 수명 주기](https://static.javatpoint.com/core/images/life-cycle-of-a-thread.png)
 
 1. NEW : 스래드의 실행 준비가 완료된 상태
 2. RUNNABLE : 스레드가 실행 가능한 상태
@@ -123,14 +124,14 @@
     
     ```java
     public class MyThread extends Thread {
-    		public void run() {
-    				System.out.println("RUN");
-    		}
-    
-    		public static void main(String[] args) {
-    				MyThread thread = new MyThread();
-    				thread.start();
-    		}
+        public void run() {
+            System.out.println("RUN");
+        }
+
+        public static void main(String[] args) {
+            MyThread thread = new MyThread();
+            thread.start();
+        }
     }
     ```
     
@@ -143,14 +144,14 @@
     
     ```java
     public class MyThread implements Runnable {
-    		public void run() {
-    				System.out.println("RUN");
-    		}
-    
-    		public static void main(String[] args) {
-    				Thread thread = new Thread(new MyThread());
-    				thread.start();
-    		}
+        public void run() {
+            System.out.println("RUN");
+        }
+
+        public static void main(String[] args) {
+            Thread thread = new Thread(new MyThread());
+            thread.start();
+        }
     }
     ```
 
@@ -162,23 +163,23 @@
     
     ```java
     public class MyThread extends Thread {
-    		public MyThread(String string) {
-    				super(string);
-    		}
-    	
-    		public void run() {
-    				int count = 0;
-    				while (!this.isInterrupted()) {
-    						System.out.print(this.getName());
-    						HelloWorld.threadSleep(this, 500);
-    			
-    						count++;
-    						if (count == 20) {
-    								this.interrupt();
-    								System.out.printf("%n[5]." + this.toString() + "-인터럽트됨]");
-    						}
-    				}
-    		}
+        public MyThread(String string) {
+            super(string);
+        }
+    
+        public void run() {
+            int count = 0;
+            while (!this.isInterrupted()) {
+                System.out.print(this.getName());
+                HelloWorld.threadSleep(this, 500);
+    
+                count++;
+                if (count == 20) {
+                    this.interrupt();
+                    System.out.printf("%n[5]." + this.toString() + "-인터럽트됨]");
+                }
+            }
+        }
     }
     ```
     
@@ -186,37 +187,37 @@
     
     ```java
     public class HelloWorld {
-    		public static void main(String[] args) {
-    				MyThread mt1 = new MyThread("*");		
-    				MyThread mt2 = new MyThread("#");		
-    				mt1.start();		
-    				mt2.start();
-    				
-    				System.out.printf("%n[1].mt1:" + mt1.isInterrupted() + ", mt2:" + mt2.isInterrupted() + "]");
-    				
-    				threadSleep(Thread.currentThread(), 2000);
-    				mt1.interrupt();
-    				System.out.printf("%n[2].mt1:" + mt1.isInterrupted() + ", mt2:" + mt2.isInterrupted() + "]");
-    				
-    				threadJoin(mt2);
-    				System.out.printf("%n[3].mt1:" + mt1.isInterrupted() + ", mt2:" + mt2.isInterrupted() + "]");
-    		}
-    		
-    		static void threadSleep(Thread t, long time) {
-    				try {
-    						Thread.sleep(time);
-    				} catch (InterruptedException e) {
-    						System.out.printf("%n[4]." + t.toString() + "-인터럽트됨]");
-    						t.interrupt();
-    				}
-    		}
-    		static void threadJoin(Thread t) {
-    				try {
-    						t.join();
-    				} catch (InterruptedException e) {
-    						e.printStackTrace();
-    				}
-    		}
+        public static void main(String[] args) {
+            MyThread mt1 = new MyThread("*");		
+            MyThread mt2 = new MyThread("#");		
+            mt1.start();		
+            mt2.start();
+            
+            System.out.printf("%n[1].mt1:" + mt1.isInterrupted() + ", mt2:" + mt2.isInterrupted() + "]");
+            
+            threadSleep(Thread.currentThread(), 2000);
+            mt1.interrupt();
+            System.out.printf("%n[2].mt1:" + mt1.isInterrupted() + ", mt2:" + mt2.isInterrupted() + "]");
+            
+            threadJoin(mt2);
+            System.out.printf("%n[3].mt1:" + mt1.isInterrupted() + ", mt2:" + mt2.isInterrupted() + "]");
+        }
+        
+        static void threadSleep(Thread t, long time) {
+            try {
+                Thread.sleep(time);
+            } catch (InterruptedException e) {
+                System.out.printf("%n[4]." + t.toString() + "-인터럽트됨]");
+                t.interrupt();
+            }
+        }
+        static void threadJoin(Thread t) {
+            try {
+                t.join();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
     ```
     
@@ -272,15 +273,15 @@
     
     ```java
     public synchronized void method(){
-    		// 임계영역 : 단 하나의 스레드만 실행!
+        // 임계영역 : 단 하나의 스레드만 실행!
     }
     ```
     
     ```java
     public void method(){
-    		synchronized(공유객체){
-    		  // 임계 영역 (단 하나의 스레드만 실행 !)
-    		}
+        synchronized(공유객체){
+            // 임계 영역 (단 하나의 스레드만 실행 !)
+        }
     }
     ```
 
