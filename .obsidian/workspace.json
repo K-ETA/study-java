@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "82379e6c0cf6b91c",
+        "id": "33819223461dc43d",
         "type": "tabs",
         "children": [
           {
-            "id": "8be311c00cb075da",
+            "id": "431bef6842d357e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md",
+                "file": "03-Build-Tools/01-Build-Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5024719238281,
-    "collapsed": true
+    "width": 266.5024719238281
   },
   "right": {
     "id": "8814b663922dba8c",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md",
+                "file": "03-Build-Tools/01-Build-Tools.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md",
+                "file": "03-Build-Tools/01-Build-Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Getting-Deeper/04-Networking-and-Sockets.md"
+                "file": "03-Build-Tools/01-Build-Tools.md"
               }
             }
           }
@@ -135,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,11 +147,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8be311c00cb075da",
+  "active": "431bef6842d357e4",
   "lastOpenFiles": [
+    "03-Build-Tools/04-Ant.md",
+    "03-Build-Tools/03-Maven.md",
+    "03-Build-Tools/02-Gradle.md",
+    "03-Build-Tools/01-Build-Tools.md",
+    "02-Getting-Deeper/04-Networking-and-Sockets.md",
     "02-Getting-Deeper/05-Generics.md",
     "02-Getting-Deeper/06-Streams.md",
-    "02-Getting-Deeper/04-Networking-and-Sockets.md",
     "02-Getting-Deeper/03-Serialization.md",
     "02-Getting-Deeper/02-Collections-Framework.md",
     "02-Getting-Deeper/01-Memory-Management.md",
