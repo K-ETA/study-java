@@ -324,7 +324,7 @@
 
 ### Spring Event
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fd3f47ba-9b9c-44fc-b9c1-726c26896564/e90fe70d-696a-476f-bcfb-5e16a082d035/Untitled.png)
+![Spring Event](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FYpcAx%2FbtrUsPdK81f%2FRzbwUa4oaJnWx56k1lBES1%2Fimg.jpg)
 
 - Spring Event : 스프링 프레임워크를 사용할 때 내부에서 데이터를 전달하는 방법
     
@@ -491,7 +491,7 @@
 
 # AOT (Ahead-Of-Time)
 
-AOT (Ahead-Of-Time)
+### AOT (Ahead-Of-Time)
 
 - AOT (Ahead-Of-Time) : 빌드 시 스프링 애플리케이션을 분석하고 최적화하는 도구
     
