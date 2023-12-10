@@ -131,7 +131,7 @@
 
 # **IoC Container 및 Bean**
 
-## Bean
+### Bean
 
 - Bean : 스프링 컨테이너에 등록된 객체
     
